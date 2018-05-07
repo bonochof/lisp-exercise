@@ -5,7 +5,7 @@
 
 (defun mymember (%target %list)
   (do ((=list %list (cdr =list)))
-      ((eql %target (car =list)) =list) 
+      ((or (eql %target (car =list)) (null =list)) =list)
       ;(format t "~s~%" =list)
   ))
 
