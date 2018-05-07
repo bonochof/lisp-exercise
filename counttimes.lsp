@@ -4,5 +4,6 @@
 |#
 
 (defun counttimes (target list)
-  (- (length list) (length (remove target list))))
+  (- (length list)
+     (length (remove target list))))
 
