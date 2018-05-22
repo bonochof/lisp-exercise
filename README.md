@@ -1,4 +1,4 @@
-# LISP exercise
+# Lisp exercise
 Lisp exercise source code
 
 関数定義の練習
@@ -27,7 +27,7 @@ Lisp exercise source code
 * newmember: 比較関数を指定できるmember関数
 
 ## 言語
-Common LISP
+Common Lisp
 
 ## 開発者
 [bonochof](https://github.com/bonochof)
