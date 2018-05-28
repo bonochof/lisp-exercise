@@ -4,6 +4,10 @@
 |#
 
 (defun newremove (%atom %list &key ((:test %kansuu) #'eq))
-  (cond ((null %funcall %kansuu %atom (cdr %list) :test %kansuu))
-        (t (cons (car %list) (newremove %atom (cdr %list) :test %kansuu)))))
+  (cond ((null %list)
+          nil)
+        ((funcall %kansuu %atom (car %list))
+          (newremove %atom (cdr %list) :test %kansuu))
+        (t
+          (cons (car %list) (newremove %atom (cdr %list) :test %kansuu)))))
 
