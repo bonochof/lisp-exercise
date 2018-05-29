@@ -23,8 +23,11 @@ Lisp exercise source code
 
 パラメータの練習
 * syouhizei: 消費税(未入力可)込み価格を求める関数
+* frameread: フレームから検索する関数
 * heikin: 任意個の数値の平均値を求める関数
+* allnumberp: 任意個のアトムがすべて数値であるかを求める関数
 * newmember: 比較関数を指定できるmember関数
+* newremove: 比較関数を指定できるremove関数
 
 ## 言語
 Common Lisp
